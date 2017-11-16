@@ -1,0 +1,224 @@
+a{
+	color: inherit;
+}
+a:hover{
+	color: inherit;
+}
+
+header{
+	position: relative;
+	margin: auto;
+	padding: 10px;
+	z-index: 999999;
+	min-height: 115px;
+    padding-top: 5px;
+
+}
+.logo{
+	float: right;
+	margin-top: -40px
+}
+
+#myBtn{
+	background: rgba(0, 0, 0, 0) url(../img/homesearchbar.png) no-repeat scroll 0 0;
+    display: block;
+    height: 22px;
+    overflow: hidden;
+    text-indent: -99999px;
+    width: 220px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.navigation{
+	font-size: 10px;
+	font-weight: 500;
+	margin: auto;
+}
+
+.navigation li{
+	padding: 5px 3px;
+	
+}
+
+.navigation li a{
+	border-right: 1px solid #666;
+    color: #333;
+    font-size: 10px;
+    padding: 0 10px;
+}
+
+#slides{
+	width: 100%;
+	min-height: 100%;
+	position: fixed;
+}
+
+
+.sidebar_nav{
+	float: right;
+	position: absolute;
+	z-index: 999999;
+	right: 0;
+	width: 300px;
+	padding: 0px;
+	margin-top: 30px;
+	
+
+}
+.sidebar_nav ul{
+	width: 100%
+}
+
+.sidebar_nav ul li{
+	width: 100%;
+}
+
+.sidebar_nav ul li a{
+	background-color: #666;
+	color: #fff;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+.sidebar_nav ul li i{
+	float: right;
+}
+
+.banking-apps{
+	background-color: #a73702;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+
+.int-banking{
+	background: #d73c00;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+.int-banking a span{
+	text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding: 9px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.int_link_banking{
+	text-align: center;
+    align-content: center;
+    padding-top: 8px;
+} 
+
+.int_link_banking ul{
+	padding: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.int_link_banking ul li{
+	list-style: none;
+    background: #772000;
+    padding: 0.5em 10px;
+    display: inline;
+    margin: 8px 8px 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 9px;
+}
+
+.int_link_banking ul li a {
+	    color: #fff;
+    font-size: 9px;
+    background-color: transparent;
+}
+
+
+.gapps{
+	clear: both;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bvn_link, .feedback_survey{
+	background: rgba(102, 102, 102, 0.7);
+    height: auto;
+    margin-bottom: 5px;
+    overflow: auto;
+    padding: 5px 20px;
+    width: auto;
+    border-radius: 5px;
+
+}
+
+.bvn_link ul, .feedback_survey ul{
+	    margin-bottom: 0;
+}
+
+.bvn_link li, .feedback_survey li{
+	list-style: none;
+}
+
+.bvn_link li a, .feedback_survey li a{
+	color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+footer{
+	bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    
+}
+
+.big-footer{
+	background-color: transparent;
+	background-color: silver;
+}
+
+.social_links, .help_nav{
+	margin: auto;
+	display: inline-flex;
+	text-align: center;
+}
+.social_links li a{
+	padding: 3px 3px
+}
+
+.social_links li a img, .help_nav li a img{
+	width: 32px;
+	height: 32px;
+}
+
+.social_links h4{
+	font-size: 10px;
+	text-align: center;
+}
+
+.help_nav span{
+	font-size: 8px;
+}
+
+.small-footer ul{
+	float: right;
+	font-size: 12px;
+}
+ .small-footer ul li a{
+ 	padding: 1px 5px;
+ 	border-right: 1px solid #000;
+ }

@@ -1,0 +1,57 @@
+/*
+Theme Name: Kickstart for WordPress
+Description: small framework for quickly getting started with your wordpress theme development
+Author: Gerrit van Aaken
+Version: 0.8 | Release: 2015-01-13
+	based upon:
+	HTML/CSS/JS-Kickstart
+	(small framework for quickly getting started with your web frontend development)
+	by Gerrit van Aaken (http://praegnanz.de)
+
+	No rights reserved.
+*/
+
+/* -------------------------------- Default WP classes */
+
+.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+.wp-caption {
+}
+
+.wp-caption img {
+}
+
+.wp-caption p.wp-caption-text {
+}
+
+/* ----------------------------------------------------- tabletish screens */
+
+
+/* ----------------------------------------------------- smartphonish screens */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* ----------------------------------------------------- desktopish screens */
+@media only screen and (min-width: 1024px) {
+
+}
+
+/* -------------------------------- Browser specific CSS */
+
+.js .element { } /* apply only on JavaScript enabled browsers */
+.ie8 .element { } /* apply only on Internet Explorer 8 */
+.ie9 .element { } /* apply only on Internet Explorer 9 */
